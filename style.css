@@ -243,7 +243,9 @@ button:active {
   inset: 0;
   background: rgba(15, 23, 42, 0.78);
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); /* ✅ Safari support added */
 }
+
 
 .popup-card {
   position: relative;
